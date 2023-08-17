@@ -242,18 +242,19 @@ h4{
 
 /* Footer */
 .foot{     
+    display: grid;
+    grid-template-rows: auto auto;
     background-color: #1377FC;
     color: black;
     text-align: center;
-    padding: 20px
 }
 h5{
     font-size: 35px;
-    font-weight: 500;
+    grid-row: 1 / 2;
 }
 p3{
     font-size: 25px;
-    font-weight: 400;
+    grid-row: 2 / 3;
 }
 @media(max-width:786px){
     .foot{
