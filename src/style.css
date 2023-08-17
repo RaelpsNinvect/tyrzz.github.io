@@ -92,6 +92,11 @@ p1{
     font-size: 25px;
     font-weight: 400;
 }
+@media (max-width: 786px){
+    .hero{
+        padding: 10px;
+    }
+}
 /* End of Main */
 
 /* About me Page */
@@ -124,6 +129,11 @@ h2{
 p2{
     margin:5;
     font-size: 25px;
+}
+@media(max-width: 786px){
+    .subsec{
+        padding: 10px;
+    }
 }
 /* End of About me Page */
 
@@ -177,6 +187,11 @@ p2{
     color: transparent;
     font-size: 40px;
  }
+ @media(max-width: 786px){
+    .skillscon{
+        padding: 10px;
+    }
+ }
  /* End of SKills Page */
 
  /* Projects Page */
@@ -215,10 +230,15 @@ h4{
     font-style: italic;
     margin: 20px;
 }
+@media(max-width:786px){
+    .projects{
+        padding: 10px;
+    }
+}
 /* End of Projects Page */
 
 /* Footer */
-footer{     
+foot{     
     background-color: #1377FC;
     color: black;
     text-align: center;
@@ -231,6 +251,11 @@ h5{
 p3{
     font-size: 25px;
     font-weight: 400;
+}
+@media(max-width:786px){
+    .foot{
+        padding: 10px;
+    }
 }
 /* End of Footer */
 
