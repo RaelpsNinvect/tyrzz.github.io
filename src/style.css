@@ -103,7 +103,7 @@ p1{
 .subsec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-rows: auto auto;
     grid-gap: 10px;
     background-color: #569DFC;
 }
@@ -133,6 +133,9 @@ p2{
 @media(max-width: 786px){
     .subsec{
         padding: 10px;
+    }
+    .information{
+        font-size: 15px;
     }
 }
 /* End of About me Page */
@@ -197,8 +200,8 @@ p2{
  /* Projects Page */
 .projects{
     display: grid;
-    grid-template-columns: 550px 120px 600px ;
-    grid-template-rows: auto 450px;
+    grid-template-columns:auto 100px auto;
+    grid-template-rows: auto auto;
     grid-gap: 20px;
     background-color: #378CFE;
     text-align: center;
@@ -238,7 +241,7 @@ h4{
 /* End of Projects Page */
 
 /* Footer */
-foot{     
+.foot{     
     background-color: #1377FC;
     color: black;
     text-align: center;
@@ -255,6 +258,12 @@ p3{
 @media(max-width:786px){
     .foot{
         padding: 10px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    .p3{
+        font-size: 15px;
     }
 }
 /* End of Footer */
